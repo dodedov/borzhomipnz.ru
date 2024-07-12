@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+html {
+    font-family: 'Jost', sans-serif;
+    background-color: hsl(var(--PrimaryColor-h), var(--PrimaryColor-s), calc(var(--PrimaryColor-l) + var(--lighten20)));
+}
+
+html {
+    --lighten: 14%;
+    --lighten20: 40%;
+    --darken: 14%;
+    --transparent025: 0.25;
+    --transparent0: 0.7;
+
+    --White: hsla(0, 0%, 100%, 1);
+    --White-h: 0;
+    --White-s: 0%;
+    --White-l: 100%;
+    --White-a: 1;
+    --Black: hsla(0, 0%, 0%, 1);
+    --Black-h: 0;
+    --Black-s: 0%;
+    --Black-l: 0%;
+    --Black-a: 1;
+
+    --PrimaryColor: hsla(185, 53%, 53%, 1);
+    --PrimaryColor-h: 185;
+    --PrimaryColor-s: 53%;
+    --PrimaryColor-l: 53%;
+    --PrimaryColor-a: 1;
+
+    --SecondaryColor: hsl(38, 100%, 50%);
+    --SecondaryColor-h: 38;
+    --SecondaryColor-s: 100%;
+    --SecondaryColor-l: 50%;
+    --SecondaryColor-a: 1;
+
+    --SecondaryColor2: hsl(42, 51%, 65%);
+    --SecondaryColor2-h: 42;
+    --SecondaryColor2-s: 51%;
+    --SecondaryColor2-l: 65%;
+    --SecondaryColor2-a: 1;
+}
+
+h2,
+h3 {
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.HomeS1 h2 {
+    color: white;
+}
+
+.HomeS1 .B1 {
+    background-color: var(--SecondaryColor);
+    color: white;
+}
+
+.HomeS1 .B2 {
+    background-color: var(--SecondaryColor2);
+    color: white;
+}
+
+footer h3 {
+    color: hsl(var(--PrimaryColor-h), var(--PrimaryColor-s), calc(var(--PrimaryColor-l) - var(--darken)));
+}

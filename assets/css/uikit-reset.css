@@ -1,0 +1,37 @@
+.uk-overlay-default {
+    background: rgba(255, 255, 255, .4);
+}
+
+.uk-overlay-Secondary {
+    background: hsla(var(--SecondaryColor-h), var(--SecondaryColor-s), var(--SecondaryColor-l), calc(var(--SecondaryColor-a) - var(--transparent0)));
+}
+
+.uk-overlay-Secondary2 {
+    background: hsla(var(--SecondaryColor2-h), var(--SecondaryColor2-s), calc(var(--SecondaryColor2-l) - var(--darken)), calc(var(--SecondaryColor-a) - var(--transparent0)));
+}
+
+.uk-navbar-toggle {
+    min-height: 0px;
+    background-color: var(--PrimaryColor);
+    padding: 10px;
+    color: white;
+}
+
+.uk-navbar-toggle:hover,
+.uk-navbar-toggle[aria-expanded=true] {
+    color: white;
+}
+
+.uk-navbar-toggle:hover,
+.uk-navbar-toggle[aria-expanded=true],
+.uk-background-primary {
+    background-color: hsl(var(--PrimaryColor-h), var(--PrimaryColor-s), calc(var(--PrimaryColor-l) - var(--darken)));
+}
+
+.uk-text-lead {
+    color: black;
+}
+
+.uk-text-primary {
+    color: var(--PrimaryColor) !important;
+}

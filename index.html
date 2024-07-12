@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<html>
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.21.5/css/uikit.min.css">
+    <!-- <link rel="stylesheet" href="assets/vendor/uikit-3.21.5/css/uikit.min.css"> -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/uikit-reset.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.21.5/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.21.5/js/uikit-icons.min.js"></script>
+    <!-- <script src="assets/vendor/uikit-3.21.5/js/uikit.min.js"></script> -->
+    <!-- <script src="assets/vendor/uikit-3.21.5/js/uikit-icons.min.js"></script> -->
+    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg">
+</head>
+
+<body>
+    <header>
+        <div class="uk-inline">
+
+            <video src="assets/video/mont.mp4" width="1920" height="auto" loop muted playsinline
+                uk-video="autoplay: inview"></video>
+
+            <div class="uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                <img src="assets/images/logof.svg" width="250" alt="">
+            </div>
+            <div class="uk-position-small uk-position-top-left uk-overlay uk-text-center uk-text-lead">
+                <div uk-form-custom="target: > * > span:last-child">
+                    <select aria-label="Custom controls">
+                        <option value="">Основная страница</option>
+                        <option value="1">Ресторан на Баумана</option>
+                        <option value="2">Ресторан на Мира</option>
+                    </select>
+                    <span class="uk-link">
+                        <span uk-icon="icon: location; ratio: 2"></span>
+                        <span></span>
+                    </span>
+                </div>
+                <div class="uk-margin-large-left">8 800 000 00 00</div>
+            </div>
+            <div class="uk-position-small uk-position-top-right uk-overlay">
+                <a class="uk-navbar-toggle uk-border-rounded" uk-navbar-toggle-icon href="#"></a>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="HomeS1 uk-section">
+            <div class="uk-container uk-container-expand">
+                <div class="uk-child-width-1-2 uk-grid-small" uk-grid>
+                    <div>
+                        <div class="uk-inline">
+                            <img src="content/DSC04691.jpg" width="1800" height="1200" alt="">
+                            <div
+                                class="uk-position-cover uk-overlay uk-overlay-default uk-overlay-Secondary uk-flex uk-flex-center uk-flex-middle">
+                                <h2 class="uk-text-bold">Ресторан на Баумана</h2>
+                            </div>
+                            <div class="uk-position-small uk-position-bottom uk-overlay uk-light">
+                                <span class="uk-text-emphasis">Идеально подходит для встречи «на чашку кофе»,
+                                    романтического свидания, обеда во
+                                    время рабочей недели или для проведения корпоративных праздников и
+                                    мероприятий.</span>
+                            </div>
+                            <div class="uk-position-bottom-right uk-padding-remove">
+                                <div class="B1">
+                                    <a href=""
+                                        class="uk-display-block uk-padding-small uk-link-reset uk-text-uppercase uk-text-bold uk-text-small text-">Перейти</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-inline">
+                            <img src="content/0dc36422-7b31-4f99-b726-5d55ef53cfde.JPG" width="1800" height="1200"
+                                alt="">
+                            <div
+                                class="uk-position-cover uk-overlay uk-overlay-default uk-overlay-Secondary2 uk-flex uk-flex-center uk-flex-middle">
+                                <h2 class="uk-text-bold">Ресторан на Мира</h2>
+                            </div>
+                            <div class="uk-position-small uk-position-bottom uk-overlay uk-light">
+                                <span class="uk-text-emphasis">Ресторан имеет стильный и современный дизайн интерьера,
+                                    атмосфера которого придаст вам уют и
+                                    комфорт. Высокий уровень сервиса и кухня, предоставляющая новое прочтение
+                                    традиционных блюд
+                                    в элегантной стилистике, добавляют особый шарм этому месту.</span>
+                            </div>
+                            <div class="uk-position-bottom-right uk-padding-remove">
+                                <div class="B2">
+                                    <a href=""
+                                        class="uk-display-block uk-padding-small uk-link-reset uk-text-uppercase uk-text-bold uk-text-small text-">Перейти</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="uk-container uk-container-xsmall uk-padding-large">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+                uk-slider="center: true;autoplay: true;autoplay-interval: 1500;pause-on-hover: true">
+
+                <div class="uk-slider-items uk-grid">
+                    <div class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="content/photo_1_2024-05-22_23-24-50.jpg">
+                            <div class="uk-position-top-right uk-position-small">
+                                <span class="uk-badge">На Баумана</span>
+                            </div>
+                            <div class="uk-position-center uk-panel">
+                                <h1>1</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="assets/images/slide.jpg">
+                            <div class="uk-position-top-right uk-position-small">
+                                <span class="uk-badge">На Мира</span>
+                            </div>
+                            <div class="uk-position-center uk-panel">
+                                <h1>2</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="content/photo_3_2024-05-22_23-24-50.jpg">
+                            <div class="uk-position-top-right uk-position-small">
+                                <span class="uk-badge">На Баумана</span>
+                            </div>
+                            <div class="uk-position-center uk-panel">
+                                <h1>3</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="assets/images/slide.jpg">
+                            <div class="uk-position-top-right uk-position-small">
+                                <span class="uk-badge">На Мира</span>
+                            </div>
+                            <div class="uk-position-center uk-panel">
+                                <h1>4</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous
+                    uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next
+                    uk-slider-item="next"></a>
+
+            </div>
+        </div>
+        <!-- <div class="uk-section-large">
+            <div class="uk-child-width-1-2" uk-grid>
+                <div>Фон</div>
+                <div></div>
+            </div>
+        </div>
+        <div class="uk-section uk-section-primary">
+            <div class="uk-container">
+                <h2 class="uk-text-center">Рекомендуем заказать в нашем ресторане на Мира</h2>
+            </div>
+        </div> -->
+        <div class="uk-section uk-section-large uk-section-default">
+            <div class="uk-container">
+                <div class="uk-flex-middle" uk-grid>
+                    <div class="uk-width-1-3 uk-text-center"><img src="assets/images/logof.svg" width="250" alt=""></div>
+                    <div class="uk-width-2-3">
+                        <p>Грузинская кухня — одна из самых интересных кухонь на Земле. Представляющие её блюда
+                            многообразны и многолики, ведь в их состав входят самые различные продукты: мясо, овощи,
+                            фрукты, рыба, сыры, орехи, она насыщенная специями и травами и наполнена традициями старой
+                            Грузии. Конечно, традиционных кухонь в мире множество, но немногие из них могут похвастаться
+                            такой любовью к своим гостям, как грузинская кухня.</p>
+                        <p>В ресторане BORJOMI работает служба доставки - закажите любимые блюда домой или в офис.</p>
+
+                        <p>Заказы принимаются до 23:00 Доставляем в течение часа! Скидка на самовывоз 10%.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="uk-container">
+            <div class="uk-grid-large uk-flex-middle" uk-grid>
+                <div class="uk-width-auto">
+                    <h3 class="uk-text-bold">Ресторан на Баумана</h3>
+                    <ul class="uk-list">
+                        <li>Пенза, ул. Баумана, 40В</li>
+                        <li><a href="tel:+7 (937) 420-33-33">+7 (937) 420-33-33</a></li>
+                        <li>Пн—Чт 12:00—00:00, Пт—Вс 12:00—02:00</li>
+                    </ul>
+                    <h3 class="uk-text-bold">Ресторан на Мира</h3>
+                    <ul class="uk-list">
+                        <li>Пенза, ул. Мира, 44А</li>
+                        <li><a href="tel:+7 (8412) 25-15-55">+7 (8412) 25-15-55</a></li>
+                        <li>Пн—Чт 12:00—00:00, Пт—Вс 12:00—02:00</li>
+                    </ul>
+                </div>
+                <div class="uk-width-expand"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3AEC102mAKxyGfkKlw-OM2EC2xSMfSezJQ&amp;width=100%25&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script></div>
+            </div>
+        </div>
+    </footer>
+
+
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
