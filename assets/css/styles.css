@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 
 html {
-    font-family: 'Jost', sans-serif;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: hsl(var(--PrimaryColor-h), var(--PrimaryColor-s), calc(var(--PrimaryColor-l) + var(--lighten20)));
 }
 
@@ -10,8 +12,7 @@ html {
     --lighten: 14%;
     --lighten20: 40%;
     --darken: 14%;
-    --transparent025: 0.25;
-    --transparent0: 0.7;
+    --transparent0: 0.5;
 
     --White: hsla(0, 0%, 100%, 1);
     --White-h: 0;
@@ -45,9 +46,10 @@ html {
 
 h2,
 h3 {
-    font-family: "Neucha", cursive;
+    font-family: "Orelega One", serif;
     font-weight: 400;
     font-style: normal;
+    letter-spacing: 0.2rem;
 }
 
 .HomeS1 h2 {
@@ -66,4 +68,10 @@ h3 {
 
 footer h3 {
     color: hsl(var(--PrimaryColor-h), var(--PrimaryColor-s), calc(var(--PrimaryColor-l) - var(--darken)));
+}
+
+.uk-modal-body h2,
+.uk-modal-body h3 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
 }

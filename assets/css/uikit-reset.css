@@ -3,7 +3,7 @@
 }
 
 .uk-overlay-Secondary {
-    background: hsla(var(--SecondaryColor-h), var(--SecondaryColor-s), var(--SecondaryColor-l), calc(var(--SecondaryColor-a) - var(--transparent0)));
+    background: hsla(var(--SecondaryColor-h), var(--SecondaryColor-s), calc(var(--SecondaryColor-l) - var(--darken)), calc(var(--SecondaryColor-a) - var(--transparent0)));
 }
 
 .uk-overlay-Secondary2 {
